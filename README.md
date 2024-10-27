@@ -20,7 +20,7 @@ The concept of the pipeine is simple:
 
 2. **Send Odd Numbers**:
    - For each integer `i` from 3 up to `n * n`:
-     - If `i` is odd, send `i` to the next process (`rank + 1`).
+     - If `i` is not a multiple of 2, send `i` to the next process (`rank + 1`).
 
 3. **Send Terminator**:
    - Define `terminator` as -1.

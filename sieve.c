@@ -117,9 +117,7 @@ int main(int argc, char **argv) {
 
 
 //I want to find n primes
-//I will store each found prime in a shared array, called primes
 //Rank determines the position of the prime in the array
-//So process 0 has primes[0] = 2, process 1 has primes[1] = 3, primes[2] = 5, so on and so forth
 //I will use the sieve of Eratosthenes algorithm to find the primes
 
 //I will use the following pseudocode to implement the algorithm

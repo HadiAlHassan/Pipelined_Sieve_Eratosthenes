@@ -17,7 +17,7 @@ The **Sieve of Eratosthenes** is an ancient and efficient algorithm for finding 
 
 2. **Mark Non-Primes**:
    - Start with the first prime number, \( p = 2 \).
-   - Mark all multiples of \( p \) (i.e., \( 2p, 3p, \dots \)) as `false` because multiples of \( p \) are not prime.
+   - Mark all multiples of \( p \) (i.e., \( 2p, 3p, \ldots \)) as `false` because multiples of \( p \) are not prime.
    - Move to the next unmarked number (next `true` value), which is the next prime.
    - Repeat the marking process for each new prime number up to \( \sqrt{n} \).
 
